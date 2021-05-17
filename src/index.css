@@ -1,13 +1,44 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+}
+
+body,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1000;
+  font-style: oblique;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  font-size: 5;
+  color: purple;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1rem;
+    color: burlywood;
+  }
+
+  h2,
+  h3,
+  a {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  button {
+    font-size: 0.5rem;
+  }
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
