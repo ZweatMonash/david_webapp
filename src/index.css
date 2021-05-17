@@ -15,12 +15,12 @@ button {
 
 h1 {
   font-size: 5;
-  color: purple;
+  color: black;
 }
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 1rem;
-    color: burlywood;
+    color: black;
   }
 
   h2,

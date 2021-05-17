@@ -8,6 +8,10 @@ const Hero = () => {
   return (
     <div id={parentID}>
       <RenderRover parentID={parentID} />
+      <p style={{ textAlign: "center" }}>
+        The rover which I worked on during my time at Monash Nova Rover (MNR).
+        Thanks MNR for making my uni experience awesome.
+      </p>
       <div>
         <h1>Background</h1>
         <p>

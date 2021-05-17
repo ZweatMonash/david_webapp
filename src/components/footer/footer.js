@@ -15,7 +15,7 @@ const Footer = () => {
         </li>
         <li>
           <FacebookIcon />
-          <a href="https://www.linkedin.com/in/zwehtet/">Facebook</a>
+          <a href="https://www.facebook.com/zwe.linhtet.1/">Facebook</a>
         </li>
         <li>
           <TwitterIcon />

@@ -18,7 +18,10 @@
 }
 
 .footer-list li {
+  display: flex;
   cursor: pointer;
+  align-content: center;
+  justify-content: center;
   width: 100%;
 }
 
