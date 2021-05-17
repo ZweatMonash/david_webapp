@@ -25,6 +25,11 @@
   width: 100%;
 }
 
+.footer-list li:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
 .footer-list a {
   text-decoration: none;
   color: black;
