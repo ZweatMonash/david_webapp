@@ -17,7 +17,7 @@ export const SkillsObject = [
   {
     key: 4,
     iconPath: "../../images/skills/git.svg",
-    iconLabel: "Git Version Control",
+    iconLabel: "Git",
   },
   {
     key: 5,
