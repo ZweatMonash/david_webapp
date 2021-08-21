@@ -12,7 +12,6 @@ class RenderRover extends Component {
       height = 300;
     }
     console.log(width, height);
-    // var width = (parent.clientWidth / 3) * 2;
     var mobile = false;
     if (width < 768) {
       mobile = true;

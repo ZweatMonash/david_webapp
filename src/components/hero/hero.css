@@ -1,6 +1,8 @@
 #hero-wrapper {
   width: 80vw;
   height: auto;
+  display: block;
+  margin-top: 4em; /* same spacing as Navbar*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,4 +14,16 @@
 
 #hero-wrapper p {
   text-align: justify;
+}
+
+#pitch {
+  /* border: black 4px solid; */
+  /* padding: 10px 0px; */
+  margin-left: 0px;
+}
+
+#pitch p {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
 }

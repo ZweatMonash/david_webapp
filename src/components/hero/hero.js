@@ -3,30 +3,28 @@ import "./hero.css";
 import RenderRover from "./RenderRover";
 
 const Hero = () => {
-  const parentID = "hero-wrapper";
-
   return (
-    <div id={parentID}>
-      <RenderRover parentID={parentID} />
-      <p style={{ textAlign: "center" }}>
-        The rover which I worked on during my time at Monash Nova Rover (MNR).
-        Thanks MNR for making my uni experience awesome.
-      </p>
-      <div>
+    <div id="hero-wrapper">
+      <RenderRover parentID={"hero-wrapper"} />
+      <div id="pitch">
         <h1>Background</h1>
         <p>
-          Thanks for visiting this page (still in work-in progress). My name is
-          David Htet. I came from a warm, sunny south-east asian country known
-          as "Myanmar". I am currently residing in Australia, working as a
-          mechatronics/dev-ops engineer in the agriculture industry. My hobbies
-          include gaming, reading, and working on tech-projects. As a believer
-          in tech, I am super excited to see what the future holds, especially
-          in the field of the AI, Crypto-currencies, and Robotics. If you share
-          the same interest feel free to contact me (links in the footer). Happy
-          scrolling!
+          &emsp; &emsp;Fascinated by how machinery works and eager to understand
+          the inner workings of systems, I studied Electrical Engineering at
+          Monash University in 2015. Although I was doing well in classes, I was
+          still unsatisfied with the courses as my questions were still
+          unanswered.
+          <br></br> &emsp; &emsp;Later in 2019, I joined the Monash Nova Rover
+          where I first got a deep dive into engineering. It became clear to me
+          that robotics engineering is what I want to pursue. After graduating,
+          I joined Agerris engineering team to enable farmers with the latest
+          robotics technology to increase crop productivity and yield. I am very
+          fortunate to be part of an industry that is bringing real change in
+          shaping the future of agriculture.
         </p>
       </div>
     </div>
   );
 };
+
 export default Hero;

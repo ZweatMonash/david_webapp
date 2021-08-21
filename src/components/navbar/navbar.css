@@ -1,10 +1,18 @@
 .nav-wrapper {
-  display: flex;
+  /* position: fixed; */
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 100%;
   flex-direction: row;
-  width: 80vw;
-  height: 6rem;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 4rem;
   margin-left: auto;
   margin-right: auto;
+  background: rgba(0, 0, 0, 90%);
+  z-index: 99;
+  color: white;
 }
 
 .nav-list {
@@ -15,7 +23,6 @@
   justify-content: space-between;
   padding-top: 1rem;
   overflow: hidden;
-  /* border: solid black 2px; */
   border-top: none;
 }
 
@@ -36,21 +43,19 @@
 .nav-right button {
   background: transparent;
   border-radius: 3px;
-  color: black;
-  border: 2px solid palevioletred;
+  border: 2px solid White;
   margin: 0 1em;
   padding: 0.25em 1em;
   transition: 0.4s ease-in-out;
 }
 
-.nav-right a button:hover {
-  background-color: black;
-  color: white;
+.nav-right button:hover {
+  background: darkblue;
 }
 
 .nav-right a {
   text-decoration: none;
-  text-decoration-color: none;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
