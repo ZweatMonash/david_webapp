@@ -23,7 +23,7 @@ const Name = ({ text }) => {
       // to prevent memory leaks
       typed.current.destroy();
     };
-  }, []);
+  }, [text]);
 
   return <span ref={el} />;
 };
