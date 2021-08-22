@@ -21,13 +21,16 @@
   height: 100%;
   list-style: none;
   justify-content: space-between;
-  padding-top: 1rem;
+  align-items: center;
+  padding: 0rem;
   overflow: hidden;
-  border-top: none;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .nav-list {
   display: flex;
+  align-content: center;
 }
 
 .nav-left {
@@ -61,7 +64,7 @@
 @media screen and (max-width: 768px) {
   .nav-right a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 0.8rem;
   }
 }
