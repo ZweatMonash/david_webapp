@@ -9,18 +9,14 @@ const Hero = () => {
       <div id="pitch">
         <h1>Background</h1>
         <p>
-          &emsp; &emsp;Fascinated by how machinery works and eager to understand
-          the inner workings of systems, I studied Electrical Engineering at
-          Monash University in 2015. Although I was doing well in classes, I was
-          still unsatisfied with the courses as my questions were still
-          unanswered.
-          <br></br> &emsp; &emsp;Later in 2019, I joined the Monash Nova Rover
-          where I first got a deep dive into engineering. It became clear to me
-          that robotics engineering is what I want to pursue. After graduating,
-          I joined Agerris engineering team to enable farmers with the latest
-          robotics technology to increase crop productivity and yield. I am very
-          fortunate to be part of an industry that is bringing real change in
-          shaping the future of agriculture.
+          &emsp; &emsp;
+          <br></br> &emsp; &emsp; A Mechatronics Engineer highly experienced in
+          the field of robotics motion, sensors integration, and software
+          development lifecycle. Worked in an agile start-up to deliver
+          agriculture robots to enable farmers with the latest robotics
+          technology which increases crop productivity and yield. Involved in
+          client-facing roles to better understand user requirements for
+          priortising future feature development.
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import CV from "../../../public/documents/Davids-CV.pdf";
+import CV from "../../../public/documents/Davids_CV.pdf";
 import Name from "./name";
 
 const Navbar = () => {

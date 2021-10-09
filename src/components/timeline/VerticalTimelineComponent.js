@@ -23,24 +23,31 @@ const VerticalTimelineComponent = () => {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "#f25050", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #f25050" }}
-        date="2021 - present"
+        date="Mar 2021 - present"
         dateClassName="dateStyle"
         iconStyle={{ background: "#fc0303", color: "#fff" }}
         icon={<BusinessCenterIcon />}
       >
         <h3 className="vertical-timeline-element-title">
-          Mechatronics Engineer @ Agerris
+          Mechatronics/DevOps Engineer @ Agerris
         </h3>
-        <h4 className="vertical-timeline-element-subtitle">Gatton, QLD</h4>
+        <h4 className="vertical-timeline-element-subtitle">QLD</h4>
         <p>
-          - Operate and test agricultural robotic platforms in real world farm
-          environments
+          - Used ROS and C++ to develop a 2D mapping algorithm from a stereo
+          camera’s point cloud data for the robot's navigation system
         </p>
         <p>
-          - Identify operational corner cases where the current system fails to
-          meet performance standards
+          - Designed a computer vision-based obstacle maneuvering system for the
+          autonomous tractor
         </p>
-        <p>- Create automated system tests and follow manual test procedures</p>
+        <p>
+          - Used Linux bash and Python for processing and analyzing GPS and
+          sensor data
+        </p>
+        <p>
+          - Collaborated with clients to understand user requirements for
+          feature development planning
+        </p>
         <p></p>
         <Button
           className="button-explore"
@@ -48,12 +55,12 @@ const VerticalTimelineComponent = () => {
           href="https://agerris.com/"
           style={{ display: "block" }}
         >
-          Explore
+          Vist Agerris
         </Button>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="Dec 2020"
+        date="Nov 2020"
         dateClassName="dateStyle"
         contentStyle={{ background: "#fc7b03", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #fc7b03" }}
@@ -66,8 +73,7 @@ const VerticalTimelineComponent = () => {
         <h4 className="vertical-timeline-element-subtitle">
           Monash University, VIC
         </h4>
-        <p>- Dean’s Honors List: 82.877 Weighted Average Mark; GPA: 3.656</p>
-        <p>- Monash Summer Reserach Scholarship Holder</p>
+        <p>- Awarded Dean’s Honors List for Academic Excellence; GPA - 3.66</p>
         <p></p>
         <Button
           className="button-explore"
@@ -80,7 +86,7 @@ const VerticalTimelineComponent = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="Nov 2019"
+        date="Nov 2019 - Mar 2020"
         dateClassName="dateStyle"
         contentStyle={{ background: "#bab32d", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #bab32d" }}
@@ -91,7 +97,14 @@ const VerticalTimelineComponent = () => {
         <h4 className="vertical-timeline-element-subtitle">
           Monash University, VIC
         </h4>
-        <p>- Data Collection and Analysis</p>
+        <p>
+          - Performed movement data collection on AFL athletes using wearable
+          sensor nodes (IMUs)
+        </p>
+        <p>
+          - Processed joint angles of athletes’ lower bodies from the raw data
+          collected using MATLAB
+        </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -110,7 +123,7 @@ const VerticalTimelineComponent = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date=" June 2019"
+        date="Sep 2019 - Nov 2020"
         dateClassName="dateStyle"
         contentStyle={{ background: "#3192a8", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #3192a8" }}
@@ -118,22 +131,26 @@ const VerticalTimelineComponent = () => {
         icon={<GitHubIcon />}
       >
         <h3 className="vertical-timeline-element-title">
-          Software/Autonomous Engineer @ Monash Nova Rover
+          Software/Robotics Engineer @ Monash Nova Rover
         </h3>
         <h4 className="vertical-timeline-element-subtitle">
           Monash University, VIC
         </h4>
         <p>
-          - Acquired code organization and tracking skills through the use of
-          GIT
+          - Propelled the team to 9th place in 2019 from 14th place in 2018, out
+          of 35 competing teams
         </p>
         <p>
-          - Developed and implemented Path Planning algorithms, and Path
-          Controllers
+          - Used C++ and ROS to create a path planner and controller for the
+          autonomous navigation system
         </p>
         <p>
           - Created a Gazebo simulation environment to improve safety for
-          testing purposes.
+          testing purposes
+        </p>
+        <p>
+          - Assisted in sensor selection and performance analysis to meet budget
+          plans
         </p>
         <p></p>
         <Button
@@ -142,7 +159,7 @@ const VerticalTimelineComponent = () => {
           href="https://www.novarover.space/"
           style={{ display: "block" }}
         >
-          Explore
+          Visit Nova Rover
         </Button>
       </VerticalTimelineElement>
       <VerticalTimelineElement
