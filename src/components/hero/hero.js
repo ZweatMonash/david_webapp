@@ -12,11 +12,11 @@ const Hero = () => {
           &emsp; &emsp;
           <br></br> &emsp; &emsp; A Mechatronics Engineer highly experienced in
           the field of robotics motion, sensors integration, and software
-          development lifecycle. Worked in an agile start-up to deliver
+          development lifecycle. Working in an agile start-up to deliver
           agriculture robots to enable farmers with the latest robotics
-          technology which increases crop productivity and yield. Involved in
-          client-facing roles to better understand user requirements for
-          priortising future feature development.
+          technology which increases crop productivity and yield. Actively
+          invovled in client-facing roles to better understand user requirements
+          for priortising future feature development.
         </p>
       </div>
     </div>
